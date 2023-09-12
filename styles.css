@@ -96,64 +96,114 @@ input[type=checkbox] {
 }
 
 
-/* MAIN MENU */
+/* BANNER IMAGE  */
 #main-image{
     margin: auto;
     background: url('./assets/main-image.webp');
-    width: 99vw;
+    /* width: 99vw; */
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     position: relative;
-}
-
-main{
-    position: relative;
-    margin: auto;
-    max-width: 70%;
-
-    height: auto;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    height: 50px;
-}
-
-.related-image{
-    width: 50%;
-    padding: 20px;
-}
-
-.related-image img{
-    
-    border-radius: 7px;
-    
-}
-
-.related-text{
-    width: 50%;
-    padding: 20px;
-    text-align: center;
-}
-
-.break{
+    overflow-x: hidden;
+ 
     width: 100%;
-    height: 1px;
+        /* height: 400px; */
+        /* background-image: url('img_flowers.jpg'); */
+        background-size: 100% 100%;
+        /* border: 1px solid red; */
 }
 
-#menu{
-    position: absolute;
-    top: auto;
+
+
+/* ----------------------Main Section------------------------- */
+
+/* .set-size{
+    max-width: 70vw;
+    height: 80vh;
+    justify-content: center;
+    border: 4px solid black;
     margin: auto;
-        width: 70%;
-        display: flex;
-        /* flex-wrap: wrap; */
-        /* flex-direction: column; */
-        justify-content: center;
-        padding: 30px;
-        height: 50px;
-        align-content: end;
 
 }
+ .wrappper{
+    display: flex;
+    border: 2px solid blue;
+    align-items: center;
+    justify-content: center;
+ }
 
+.image {
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+.text {
+    width: 45%;
+    height: 100%;
+    border: 2px solid brown;
+} */
+
+/* banner */
+
+
+
+
+}
+/* end banner */
 /* --------------------------------------------- */
+    /* --------------form--------------------- */
+
+.wrapper {
+    
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em;
+}
+
+.form-row>label {
+    padding: 0.5em 1em 0.5em 0;
+    flex: 1;
+}
+
+.form-row>input {
+    flex: 2;
+}
+
+.form-row>input,
+.form-row>button {
+    padding: 0.5em;
+}
+
+.form-row>button {
+    background: gray;
+    color: white;
+    border: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .form-row>input {
+        flex: 3;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .form-row>input {
+        flex: 4;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form-row>input {
+        flex: 5;
+    }
+}

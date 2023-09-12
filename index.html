@@ -2,108 +2,81 @@
 
 <html>
   <head>
-    
-<link href="./styles.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
   <body>
-   <nav class="navbar">
-    
-    <div class="logo">CHAPTER XI</div>
+    <nav class="navbar">
+      <div class="logo">CHAPTER XI</div>
 
-    
-    <ul class="nav-links">
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
-      <!-- USING CHECKBOX HACK -->
-      <input type="checkbox" id="checkbox_toggle" />
-      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
 
-      
-      <div class="menu">
+          <li><a href="/">Menu</a></li>
+          <li><a href="/">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
 
-        <li><a href="/">Home</a></li>
-        <li><a href="#about">About</a></li>
+    <div id="main-image"></div>
 
-       
+    <!-- <!-- <div class="set-size"> -->
+    <!-- <div class="wrappper">
+      <div class="image"><img src="/assets/about-image.jpeg";</div>
 
-        <li><a href="/">Menu</a></li>
-        <li><a href="/">Contact</a></li>
-      </div>
-    </ul>
-  </nav> 
-  <div id="main-image">
-        
-      </div>
-
-    <main>
-    <div class="related-image">
-      <img src="./assets/about-image.jpeg" alt="about-image">
+      <div class="text">
+        <h2>Hello world</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+          deleniti est recusandae quod corporis unde cumque aut aliquid
+          possimus, suscipit, obcaecati a pariatur. Debitis a omnis provident,
+          vero accusamus quod. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Earum quod culpa temporibus ad porro exercitationem
+          qui! Totam, iste dolores error, porro necessitatibus eveniet
+          voluptates officiis voluptatem natus laboriosam nisi animi provident
+          quis minima laudantium expedita, repudiandae iure corporis dicta nobis
+          maiores libero consequuntur harum repellat? Explicabo possimus a quod
+          culpa!
+        </p>
+      </div> -->
     </div>
+    <!-- </div> -->
 
-    <div class="related-text">
-      <h1>About CHAPTER XI</h1> <br>
-      <h2>Tradition since 1980</h2>
-      
-      <br>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique recusandae a quod aliquam illo impedit neque nesciunt optio corporis laudantium quia provident vero enim, in natus architecto quis earum, tenetur numquam iste perspiciatis dolores voluptatem voluptate. Totam ipsum iste error, libero voluptatem esse voluptates laboriosam impedit obcaecati illum officiis, iusto eveniet, qui laborum ad magnam vel minima a. Deleniti ipsum rerum sint illum? Vitae, nobis, ab eos praesentium nulla adipisci sit, suscipit consequatur commodi nisi incidunt earum soluta? Sit aspernatur accusamus animi delectus veritatis eum, esse quasi optio cumque tempore ut voluptatum nesciunt ducimus. Ratione, quidem! Eos, distinctio tenetur.</p>
-    </div>
-     
-
-     <!-- <section> -->
-
-       <div class="related-image">
-      <img src="./assets/about-image.jpeg" alt="about-image">
-    </div> 
-   
-    <div class="related-text">
-      <h1>Our Menu</h1>
-
-      <div>
-        <h3>Bread Basket</h3>
-        <p>Assortment of fresh baked fruit breads</p>
-      </div>
-      
-       <div>
-        <h3>Zinger Burger</h3>
-        <p>Assortment of fresh baked fruit breads</p>
-      </div>
-
-       <div>
-        <h3>Beef Burger</h3>
-        <p>Assortment of fresh baked fruit breads</p>
-      </div>
-
-    </div> 
-  <!-- </section> -->
-
-  <!-- <div class="related-image">
-      <img src="./assets/about-image.jpeg" alt="about-image">
-    </div> 
-   
-    <div class="related-text">
-      <h1>Our Menu</h1>
-
-      <div>
-        <h3>Bread Basket</h3>
-        <p>Assortment of fresh baked fruit breads</p>
-      </div>
-      
-       <div>
-        <h3>Zinger Burger</h3>
-        <p>Assortment of fresh baked fruit breads</p>
-      </div>
-
-       <div>
-        <h3>Beef Burger</h3>
-        <p>Assortment of fresh baked fruit breads</p>
-      </div>
-
-    </div> -->
-</main>
     
-     
+
+    <!-- ------------------- -->
 
     <!-- ----------------------------------------------------- -->
 
+    <!----------------------------------- FORM -->
 
-    
+    <div style="width: 100%, height=500px"></div>
+    <form>
+      <ul class="wrapper">
+        <li class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+        </li>
+
+        <li class="form-row">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" />
+        </li>
+
+        <li class="form-row">
+          <label for="msg">Special Message</label>
+          <input type="text" id="msg" />
+        </li>
+
+        <li class="form-row">
+          <button type="submit">Submit</button>
+        </li>
+      </ul>
+    </form>
   </body>
 </html>
