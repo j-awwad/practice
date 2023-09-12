@@ -106,12 +106,9 @@ input[type=checkbox] {
     /* background-size: cover; */
     position: relative;
     overflow-x: hidden;
- 
-    width: 100%;
-        /* height: 400px; */
-        /* background-image: url('img_flowers.jpg'); */
-        background-size: 100% 100%;
-        /* border: 1px solid red; */
+     width: 100%;
+    background-size: 100% 100%;
+    opacity: 0.5px;
 }
 
 
@@ -125,25 +122,30 @@ input[type=checkbox] {
     border: 4px solid black;
     margin: auto;
 
-}
+/* } */
  .wrappper{
     display: flex;
-    border: 2px solid blue;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    gap: 25px;
+    margin: 100px;
  }
 
-.image {
-    width: 50%;
-    height: 100%;
-    border: 2px solid red;
+.image img{
+    height: 350px;
 }
 
 .text {
+    text-align: center;
     width: 45%;
-    height: 100%;
-    border: 2px solid brown;
-} */
+    /* height: 100%; */
+} */ */
+
+@media screen and (max-width: 768px) {
+    .text{
+        max-height:
+    }
+}
 
 /* banner */
 
@@ -206,4 +208,27 @@ input[type=checkbox] {
     .form-row>input {
         flex: 5;
     }
+}
+/*            about page */
+
+.about-div{
+    background-color: whitesmoke;
+    display: flex;
+    /* border: 4px solid red; */
+    justify-content: space-around;
+}
+
+.about-div{
+    /* width: 50%; */
+   
+}
+
+.about-img img{
+    max-width: 200px;
+
+    border-radius: 50%;
+}
+
+.about-text{
+    color: teal;
 }
